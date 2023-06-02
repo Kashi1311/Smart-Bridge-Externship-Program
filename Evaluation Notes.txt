@@ -1,0 +1,67 @@
+Regression:
+1.MSE=Mean Squared Error
+2.RMSE=Root Mean Square Error
+3.MAE=Mean Absolute Error
+MAE=(1/n)Summation|y-y^|
+4. R-Squared
+
+Classification problems:
+
+Confusion matrix:
+
+TP(True Positive)-Model correctly predicts Positive class
+TN(True Negative)- Model correctly predicts Negative Class
+FP(False Positive)-Type-1 Error- The outcome where the model 
+	incorrectly predicts positive when it is actually negative
+FN(False Negative)-Type 2 Error- An outcome where the model 
+	incorrectly predicts Negative Class when it is actually Positive
+
+Accuracy-It depict total no of predictis that were correct
+	Accuracy=TP+TN/(TP+FP+FN+TN)
+
+Precision-It tells how many of Positive cases actually turned out to be postive
+ 	Precision=Tp/(TP+FP)
+
+Recall/Sensitivity/TPR-True Positive rate
+It tell out of total actual positive cases how many were correctly classifies as Positive
+	TP/(TP+FN)
+
+Specificity-
+It tells out of total actual Negative cases how many are correctly classified as Negative
+	TN/TN+FP
+
+F1 Score=It is harmonic Mean of Precision and Recall
+F1=2*(Precision*Recall)/(Precision+Recall)
+
+AUC ROC Curve,
+AUC-Area Under Curve
+ROC-Reciever operating Characteristic
+ROC-Probabilty Curve
+AUC- Measure of Separability
+
+ROC-TPR and FPR
+FPR=1-Specificity
+
+Ensembling techniques:
+Bagging
+Boosting
+Bagging-Bootstrap Aggregating
+
+Boosting:
+Weak learners-They are the invidual model to predict target outcome with avergae accuracy
+
+Strong Learner-Combination of weak learners to build strong learner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
