@@ -34,7 +34,7 @@ def predict():
         b=b.reshape(1,45)
         prediction = model.predict(b)
         prediction = prediction[0]
-    return render_template('results.html', prediction_text='The probabale diagnosis says it could be')
+    return render_template('results.html', prediction_text='The probabale diagnosis says it could be'.format(prediction))
 
 if __name__ == "__main__":
     app.run()
